@@ -1,0 +1,61 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	font-family: 'Inter', Prompt, sans-serif;
+	background: #f0f2f5;
+}
+
+A:link {
+	text-decoration:none;
+}
+
+A:visited {
+	text-decoration:none;
+}
+
+.cardProfile1 {
+	margin: 90px;
+	box-shadow: 0px 0px 100px -17px rgba(0,0,0,0.75);
+	max-width: 1000px
+}
+
+.cardProfile2 {
+	padding: 30px;
+}
+
+.mini-icon1 {
+	width: 100px;
+	height: auto;
+}
+
+.mini-icon2 {
+	width: 30px;
+	height: auto;
+}
+
+.profileIMG {
+	border-radius: 0px;
+	width: 300px;
+	height: auto;
+}
+
+.background {
+	width: 100%;
+	height: auto;
+}
+
+.bridge {
+	padding: 10px;
+	font-size: 20px;
+}
+
+.button1 {
+	background: rgba(0,0,0,1.00);
+	color: rgba(255,255,255,1.00);
+	border: 0px;
+	padding: 10px;
+	border-radius: 10px;
+	font-size: 15px;
+	font-family: 'Inter', Prompt, sans-serif;
+}

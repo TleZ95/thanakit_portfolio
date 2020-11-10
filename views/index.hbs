@@ -1,0 +1,90 @@
+<div align="center">
+
+	<div class="cardProfile1">
+		<div class="bridge" align="left">
+			Profile
+		</div>
+		<div>
+			<div class="cardProfile2">
+				<div align="center">
+					{{#with myData.Aboutme}}
+						<div style="margin-top: 50px; margin-bottom: 80px;">
+							<img class="profileIMG" src="image/profile/profile.jpg">
+							<h2 style="">{{FullName}}, {{Nickname}}</h2>
+							<div style="font-size: 18px">
+								<img class="mini-icon2" src="image/mini_icon/cake.png">
+								{{Birth}}
+							</div>
+							<div style="font-size: 18px">
+								<img class="mini-icon2" src="image/mini_icon/place.png">
+								{{Address}}
+							</div>
+						</div>
+					{{/with}}
+					{{#with myData.Education}}
+						<div style="margin-bottom: 100px;">
+							Junior high school / {{Junior}}<br>
+							High school / {{High}}<br>
+							Present / {{Present}}
+						</div>
+					{{/with}}
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="cardProfile1">
+		<div class="bridge" align="left">
+			Ability
+		</div>
+		<div>
+			<div class="cardProfile2">
+				<div align="left">
+					{{#with myData.Skill}}
+						<div class="HTMLbar" style="margin-bottom: 50px">
+							<h3>HTML</h3>
+							<div style="height: 40px; background: rgba(0,0,0,0.1);">
+								<div style="width: {{HTML}}; height: 100%; background: rgba(163,182,255,1.00);" align="center">
+									{{HTML}}
+								</div>
+							</div>
+						</div>
+						<div class="PHPbar" style="margin-bottom: 50px">
+							<h3>PHP</h3>
+							<div style="height: 40px; background: rgba(0,0,0,0.1);">
+								<div style="width: {{PHP}}; height: 100%; background: rgba(163,182,255,1.00);" align="center">
+									{{PHP}}
+								</div>
+							</div>
+						</div>
+						<div class="CSSbar" style="margin-bottom: 50px">
+							<h3>CSS</h3>
+							<div style="height: 40px; background: rgba(0,0,0,0.1);">
+								<div style="width: {{CSS}}; height: 100%; background: rgba(163,182,255,1.00);" align="center">
+									{{CSS}}
+								</div>
+							</div>
+						</div>
+						<div class="JavaScriptbar" style="margin-bottom: 50px">
+							<h3>JavaScript</h3>
+							<div style="height: 40px; background: rgba(0,0,0,0.1);">
+								<div style="width: {{JavaScript}}; height: 100%; background: rgba(163,182,255,1.00);" align="center">
+									{{JavaScript}}
+								</div>
+							</div>
+						</div>
+						<div class="Javabar" style="margin-bottom: 0px">
+							<h3>Java</h3>
+							<div style="height: 40px; background: rgba(0,0,0,0.1);">
+								<div style="width: {{Java}}; height: 100%; background: rgba(163,182,255,1.00);" align="center">
+									{{Java}}
+								</div>
+							</div>
+						</div>
+					{{/with}}
+				</div>
+			</div>
+		</div>
+	</div>
+
+</div>
